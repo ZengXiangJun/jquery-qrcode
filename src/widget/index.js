@@ -60,15 +60,9 @@ Enhancer.registerWidget({
                 image.src = canvas.toDataURL("image/png");
                 $container.find('canvas').remove();
                 $container.find('#qrcode_wrap').html(image);
-
             }
             that.trig('complete');
         })
-        function convertCanvasToImage(canvas) {
-            
-            
-            return image;
-        }
         function toUtf8(str) {   
             var out, i, len, c;
             out = "";   
