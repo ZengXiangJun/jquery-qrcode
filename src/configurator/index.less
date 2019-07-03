@@ -1,0 +1,63 @@
+*:focus {
+    outline: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+.dataSrc {
+    width: 73%;
+    height: 100%;
+    float: left;
+}
+.config {
+    width: 27%;
+    height: 100%;
+    float: left;
+    .left {
+        width: 48%;
+        height: 100%;
+        float: left;
+        div {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            box-sizing: border-box;
+            font-size: 13px;
+            padding-left: 28px;
+            i {
+                margin-right: 5px;
+            }
+        }
+        .row_1 {
+            padding-left: 10px;
+        }
+    }
+    .right {
+        width: 52%;
+        height: 100%;
+        float: left;
+        div {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            box-sizing: border-box;
+            font-size: 13px;
+            select {
+                width: 100px;
+            }
+            input[type="number"] {
+                width: 95px;
+            }
+        }
+    }
+}
