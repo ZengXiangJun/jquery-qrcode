@@ -1,4 +1,4 @@
 module.exports = function (css) {
-  return Enhancer.CssVar.transform(css, 'jquery-qrcode');
+  return Enhancer.CssVar ? Enhancer.CssVar.transform(css, 'jquery-qrcode') : css;
 }
 
