@@ -4,9 +4,9 @@
 - jquery-qrcode可将文本转化为二维码。
 
 ### 生成界面
-![](https://github.com/Run-bird/jquery-qrcode/blob/master/images/WechatIMG1.jpeg)
+![](https://github.com/ZengXiangJun/jquery-qrcode/blob/master/images/WechatIMG1.jpeg)
 ### 配置界面
-![](https://github.com/Run-bird/jquery-qrcode/blob/master/images/WechatIMG2.jpeg)
+![](https://github.com/ZengXiangJun/jquery-qrcode/blob/master/images/WechatIMG2.jpeg)
 
 ### 使用说明
 - 在[Enhancer](https://enhancer.io)上注册，新建项目使用此组件。
