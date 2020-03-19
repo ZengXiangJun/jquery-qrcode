@@ -25,7 +25,6 @@
 ### 组件功能
 - 将文本转化成二维码
 
-
 ### 可用事件说明
 #### 单击二维码（On Qrcode Click）
 - 【事件 ID】onQrcodeClick
